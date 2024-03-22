@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:background="@drawable/dialogbg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintBaseline_toBaselineOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/cancelButton"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_round"
+            app:tint="#79b6e3" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/buttonLayers"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/icon_squarefinal" />
+            <ImageView
+                android:id="@+id/buttonInformation"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:src="@drawable/icon_circle" />
+            <ImageView
+                android:id="@+id/buttonLegends"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/icon_triangle" />
+<!--            <Button-->
+<!--                android:id="@+id/buttonLayers"-->
+<!--                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="5dp"-->
+<!--                android:text="Layers"-->
+<!--                android:textColor="#201b4f"-->
+<!--                app:strokeColor="#201b4f" />-->
+<!--            <Button-->
+<!--                android:id="@+id/buttonInformation"-->
+<!--                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="5dp"-->
+<!--                android:layout_marginEnd="5dp"-->
+<!--                android:text="Information"-->
+<!--                android:textColor="#201b4f"-->
+<!--                app:strokeColor="#201b4f" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/buttonLegends"-->
+<!--                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Legend"-->
+<!--                android:layout_marginEnd="5dp"-->
+<!--                android:textColor="#201b4f"-->
+<!--                app:strokeColor="#201b4f" />-->
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

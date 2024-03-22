@@ -1,0 +1,47 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:id="@+id/dragHandle2"
+    android:background="@drawable/copy_dialogbg5">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/icon_cebu"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cebu Interactive Map"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+
+    <TextView
+        android:id="@+id/developerInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project Manager: Bonbryan D. Velasco"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/developerInfo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developer: Aldrich O. De Leon"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/developerInfo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Co-Developer: Aldrin A. Nacar"
+        android:textSize="14sp"/>
+</LinearLayout>

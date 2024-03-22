@@ -1,0 +1,121 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="500dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp"
+        android:id="@+id/dragHandle2"
+        android:background="@drawable/copy_dialogbg5">
+
+        <ImageView
+            android:id="@+id/appLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/icon_cebu"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cebu Interactive Map"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginBottom="16dp"/>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/museosans700"
+
+                    android:paddingRight="7dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:text="References:" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GEBCO Compilation Group (2020). GEBCO 2020 Grid (doi:10.5285/a29c5465-b138-234d-e053-6c86abc040b9)"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginBottom="4dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mines and Geosciences Bureau (2010). Geology of the Philippines (2nd ed.). \nMines and Geosciences Bureau, Department of Environment and Natural Resources. "
+                    android:textSize="13sp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="4dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NASA Shuttle Radar Topography Mission (SRTM)(2013).\nShuttle Radar Topography Mission (SRTM) Global.\nDistributed by OpenTopography. https://doi.org/10.5069/G9445JDF
+"
+                    android:textSize="13sp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="4dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PHIVOLCS (2021). The PHIVOLCS FaultFinder. http://faultfinder.phivolcs.dost.gov.ph/"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginBottom="16dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Philippines Bureau of Mines (1963). 1: 1,000,000 \nGeological Map of the Philippines Edition 1 [Map]. \nGeological Survey Division."
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginBottom="16dp"/>
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="235dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Copyright © 2023. \n\nNational Museum of the Philippines.\n\n All rights reserved.\n
+Made with passion and commitment by\n BSTECH Solutions
+Bon Velasco - Project Manager
+Aldrich de Leon - UX/UI Developer
+Aldrin Nacar = UI Developer"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/copy_dialogb4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/museosans700"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="#201b4f"
+            android:text="Sumilon Island Sandbar" />
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager2"
+            android:layout_width="530dp"
+            android:layout_height="335dp"
+            tools:ignore="SpeakableTextPresentCheck">
+        </androidx.viewpager.widget.ViewPager>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/museosans700"
+                android:paddingTop="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="7dp"
+                android:textSize="10sp"
+                android:textColor="#201b4f"
+                android:text="Sumilon Sandbar is a white sandbar island located in the middle of the sea near Sumilon Island in Oslob, Cebu. It is the first protected marine sanctuary in the Philippines. The protected area includes Sumilon Island and the surrounding waters, and it is home to a variety of marine life, including coral reefs, fish, and turtles. The sandbar is one of its most iconic attractions which shifts depending on the season.
+" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,166 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dragHandle"
+    android:background="@drawable/copy_dialogbg2"> <!-- Purple background color -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Layers"
+                android:textColor="#FFFFFF"/>
+
+            <ImageView
+                android:id="@+id/closeButton"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="90dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_close" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/copy_dialogb4">
+            <TextView
+                android:id="@+id/txtGeology"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Geology"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/CheckBox_Lithology"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Lithology"
+                android:textColor="#FFFFFF" /> <!-- White text color -->
+
+            <CheckBox
+                android:id="@+id/CheckBox_Faults"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Faults"
+                android:textColor="#FFFFFF" /> <!-- White text color -->
+
+            <TextView
+                android:id="@+id/txtTopography"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Topography"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/> <!-- White text color -->
+
+            <CheckBox
+                android:id="@+id/CheckBox_Elevation"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:checked="true"
+                android:text="Elevation"
+                android:textColor="#FFFFFF" /> <!-- White text color -->
+
+            <CheckBox
+                android:id="@+id/CheckBox_Relief"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:checked="true"
+                android:text="Relief"
+                android:textColor="#FFFFFF" /> <!-- White text color -->
+
+            <CheckBox
+                android:id="@+id/CheckBox_Contours"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:text="Contours"
+                android:textColor="#FFFFFF" /> <!-- White text color -->
+            <TextView
+                android:id="@+id/txtBathymetry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bathymetry"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/CheckBox_Bathymetry"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:checked="true"
+                android:text="Bathymetry"
+                android:textColor="#FFFFFF" /> <!-- White text color -->
+
+            <CheckBox
+                android:id="@+id/CheckBox_UnderwaterRelief"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:text="Underwater Relief"
+                android:textColor="#FFFFFF" /> <!-- White text color -->
+
+            <CheckBox
+                android:id="@+id/CheckBox_BathContours"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:text="Contours"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/txtMineralResources"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mineral Resources"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/CheckBox_Metallic"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Metallic"
+                android:textColor="#FFFFFF" /> <!-- White text color -->
+
+            <CheckBox
+                android:id="@+id/CheckBox_NonMetallic"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:text="Non Metallic"
+                android:textColor="#FFFFFF" />
+            <CheckBox
+                android:id="@+id/dfMap"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:text="Default Map"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:id="@+id/txtGeoheritage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Geoheritage"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/CheckBox_Tourismspots"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Tourism Spots"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

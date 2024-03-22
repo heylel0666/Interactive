@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/copy_dialogb4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/museosans700"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="#201b4f"
+            android:text="Aguinid Falls" />
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager2"
+            android:layout_width="530dp"
+            android:layout_height="335dp"
+            tools:ignore="SpeakableTextPresentCheck">
+        </androidx.viewpager.widget.ViewPager>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/museosans700"
+                android:paddingTop="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="7dp"
+                android:textSize="10sp"
+                android:textColor="#201b4f"
+                android:text="Aguinid Falls is a popular waterfall system located in Samboan, Cebu. What sets it apart from the other waterfall systems in Cebu is its eight levels of falls, five of which are open for the public to enjoy. The adventurous will love visiting the falls as there are various activities that can be done while trekking through its multiple layers." />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
